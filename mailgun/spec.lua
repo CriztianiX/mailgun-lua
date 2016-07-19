@@ -9,7 +9,7 @@ return    {
                 path = '/:domain/messages',
                 method = 'POST',
                 ["form-data"] = {
-                    ":domainm", "from", "html", "text", "to",
+                    ":domain", "from", "html", "text", "to",
                 },
                 required_params = {
                     "domain", "from", "to"
